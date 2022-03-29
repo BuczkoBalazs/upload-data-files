@@ -47,7 +47,7 @@ app.post("/", (req, res) => {
             return res.status(500).send(error);
         });
     }
-    answer.pictureNAme = picture.name;
+    answer.pictureName = picture.name;
 
     // Upload data from form
     const formData = req.body;
